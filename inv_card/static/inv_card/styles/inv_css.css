@@ -3,6 +3,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lemonada:wght@300;400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Norican&display=swap');
+.container_all{
+width: 100vw;
+ position: relative;
+ margin-left: -50vw;
+ height: 100px;
+ margin-top: 100px;
+ left: 50%;
+
+}
+
 html {
   box-sizing: border-box;
   height: 100%;
@@ -416,6 +426,31 @@ body{
   }
 
 }
+@media screen and (max-width:333px){
+  #g1{
+    font-size: 37px;
+    left: 15px; 
+  }
+  #O1{
+    font-size: 6rem;
+  }
+  .pic > .baloon {
+    left: 10rem;
+  }
+}
+
+@media screen and (max-width:316px){
+   #g1{
+    font-size: 30px;
+    left: 14px; 
+  }
+  #O1{
+    font-size: 5rem;
+  }
+   .pic > .baloon {
+    left: 8rem;
+  }
+}
 
 /*==============================================*/
 :root{
@@ -543,3 +578,4 @@ body{
   z-index: 100002;
   cursor: pointer;
 }
+
