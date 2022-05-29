@@ -427,6 +427,15 @@ body{
 
 }
 @media screen and (max-width:333px){
+  .sim img{
+  width: 26rem;
+    height: 24rem;
+}
+.sim iframe{
+    width: 26rem;
+    height: 24rem;
+}
+
   #g1{
     font-size: 37px;
     left: 15px; 
